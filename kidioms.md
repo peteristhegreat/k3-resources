@@ -7525,8 +7525,6 @@ x:1 20 300 4000
 
 311\. see 159
 
-```
-
 312\. maximum separation of items of x
 
 ```
@@ -8825,11 +8823,9 @@ k[x]
 
 390\. Conform table x rows to list y
 
-</font><font face="Courier New" size="1">
+```
 
 f390:{@[((1 0*+/^y)|^x)#0;!#x;:;x]}
-
-```
 
 x:3 3#1+!9
 
@@ -8948,8 +8944,6 @@ y _di\:\: 0 2
 ```
 
 397\. see 73
-
-```
 
 398\. diagonals from columns
 
@@ -12641,8 +12635,6 @@ x*0
 
 631\. omitted
 
-```
-
 1001\. payback
 
 cumulative accumulation factors
@@ -12793,23 +12785,13 @@ f x
 
 i:(1 3;8 10;11 12;2 4)
 
-```
-
 / given ordered (lefts;rights)
-
-```
 
 / interval 0 and where left is greater than 1+ max previous `right`
 
-```
-
 f:{(x i;1!y i:0,&x>1+y:-1!|\y)}
 
-```
-
 `+f .+{x@<x}i /```flip f apply flip sort i`
-
-```
 
 (1 4;8 12)
 
@@ -12823,11 +12805,8 @@ For r a primitive root of prime p, the additive list formed by (r*!p)!p has an i
 
 a:(3*!7)!7
 
-```
 
 / list of successive sums of 3, starting from 0, mod 7:
-
-```
 
 a
 
