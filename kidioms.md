@@ -1419,8 +1419,6 @@ y:4
 
 60\. truth table of order x (see 52)
 
-```
-
 61\. cyclic counter, repeating 1 through n
 
 ```
@@ -1480,8 +1478,6 @@ x:123456789
 ```
 
 `x:_ltime _t`
-
-```
 
 x
 
